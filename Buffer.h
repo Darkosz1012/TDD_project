@@ -1,7 +1,7 @@
 #pragma once
 #include <vector>
 #include <string>
-
+#include <exception> 
 
 class Buffer
 {
@@ -15,20 +15,27 @@ public:
 	}
 
 	int getSize() {
-		return 0;
+		return write-read;
 	}
 
 	int getAllocatedSize() {
-		return 0;
+		return arr.size();
 	}
 
 	void add(std::string str) {
-
+		arr[write % arr.size()] = str;
+		write++;
 	}
 
 
 	std::string remove() {
-		return "";
+		if (read >= write) {
+			throw new std::exception();
+		}
+		std::string tmp = arr[read % arr.size()];
+		arr[read % arr.size()] = "";
+		read++;
+		return tmp;
 	}
 };
 
