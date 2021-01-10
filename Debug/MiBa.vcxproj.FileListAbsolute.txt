@@ -1,0 +1,5 @@
+C:\MiBa\Debug\MiBa.vcxproj.CopyComplete
+C:\MiBa\Debug\MiBa.exe
+C:\MiBa\Debug\MiBa.pdb
+C:\MiBa\Debug\gtest.pdb
+C:\MiBa\Debug\gtest_main.pdb

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Executable>C:\MiBa\Debug\MiBa.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="BufferTest.getAllocatedSize" Duration="1" />
+    <TestDuration Test="BufferTest.getSize" Duration="1" />
+    <TestDuration Test="BufferTest.add" Duration="1" />
+    <TestDuration Test="BufferTest.remove" Duration="1" />
+    <TestDuration Test="BufferTest.removeException" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>
